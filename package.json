@@ -57,6 +57,10 @@
     }
   },
   "dependencies": {
+    "i18next": "^9.0.0",
+    "intl": "^1.2.4"
+  },
+  "peerDependencies": {
     "aurelia-binding": "^1.0.0 || ^2.0.0",
     "aurelia-dependency-injection": "^1.0.0",
     "aurelia-event-aggregator": "^1.0.0",
@@ -65,9 +69,7 @@
     "aurelia-metadata": "^1.0.3",
     "aurelia-pal": "^1.3.0",
     "aurelia-templating": "^1.4.0",
-    "aurelia-templating-resources": "^1.0.0",
-    "i18next": "^9.0.0",
-    "intl": "^1.2.4"
+    "aurelia-templating-resources": "^1.0.0"
   },
   "devDependencies": {
     "aurelia-tools": "^0.2.4",

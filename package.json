@@ -56,7 +56,7 @@
       "text": "github:systemjs/plugin-text@^0.0.2"
     }
   },
-  "dependencies": {
+  "peerDependencies": {
     "aurelia-binding": "^1.0.0 || ^2.0.0",
     "aurelia-dependency-injection": "^1.0.0",
     "aurelia-event-aggregator": "^1.0.0",
@@ -65,7 +65,9 @@
     "aurelia-metadata": "^1.0.3",
     "aurelia-pal": "^1.3.0",
     "aurelia-templating": "^1.4.0",
-    "aurelia-templating-resources": "^1.0.0",
+    "aurelia-templating-resources": "^1.0.0"
+  },
+  "dependencies": {
     "i18next": "^9.0.0",
     "intl": "^1.2.4"
   },
